@@ -1,0 +1,17 @@
+[package]
+name = "luehmann/wasm-cities"
+version = "0.1.0"
+description = "A Tile Cities clone for the WASM-4 fantasy console"
+readme = "README.md"
+repository = "https://github.com/luehmann/wasm-cities"
+
+[[module]]
+name = "wasm-cities"
+source = "cart.wasm"
+abi = "wasm4"
+interfaces = { wasm4 = "0.0.1" }
+
+[[command]]
+runner = "wasm4@0.0.1"
+name = "play"
+module = "wasm-cities"
