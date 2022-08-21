@@ -5,7 +5,7 @@
 ### Clone repo
 
 ```
-git clone https://github.com/luehmann/micromotorways.git --recurse-submodules
+git clone https://github.com/luehmann/wasm-cities.git --recurse-submodules
 ```
 
 ### Build
